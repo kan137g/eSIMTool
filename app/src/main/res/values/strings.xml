@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">SDK demo</string>
+    <string name="title_activity_main">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fab_behavior">com.linksfield.lpa_example.utils.FabBehavior</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_about">About</string>
+    <string name="wifi">WIFI</string>
+    <string name="bluetooth">Bluetooth</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <string name="bluetooth_not_supported">Bluetooth is not supported</string>
+    <string name="please_open_blue">Please turn on Bluetooth first</string>
+    <string name="notifyTitle">Prompt</string>
+    <string name="gpsNotifyMsg">Current mobile phone scanning Bluetooth needs to open the positioning function</string>
+    <string name="setting">Go to settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect_fail">connect fail</string>
+    <string name="connect_success">connect success</string>
+
+    <string name="menu_download">download eSIM</string>
+
+    <string name="eid">EID：%s</string>
+    <string name="iccid">卡序列号：%s</string>
+    <string name="nickname">卡名称：%s</string>
+    <string name="provider_name">供应商：%s</string>
+
+    <string name="state_time_out">time out</string>
+    <string name="state_error">error</string>
+    <string name="state_disconnected">disconnected</string>
+    <string name="state_connecting">connecting</string>
+    <string name="state_connected">connected</string>
+    <string name="state_disconnecting">disconnecting</string>
+    <string name="share_view">shareView</string>
+
+    <string name="about">This application is a part of the Linksfield eSIM solution. It can facilitate the user to manage the eSIM equipment without operation interface and support the Wi-Fi、 Bluetooth and other equipment connection modes. It enables the device to activate the eSIM card and download the number, and can delete the number and other operations.</string>
+    <string name="enabled">enabled</string>
+    <string name="disabled">disabled</string>
+
+    <string name="get_default_sub_title">Checking network info…</string>
+    <string name="q_download_sub_text">This may take a few minutes</string>
+    <string name="q_download_sub_title">Activating %1$s…</string>
+    <string name="result_download_title">Use %1$s?</string>
+    <string name="user_consent_switch_no_name_title">Use new SIM?</string>
+    <string name="q_result_download_metadata_text">1 %1$s number is available for this device. %1$s may begin charging for the service once you have activated it.</string>
+    <string name="res_activation_button">Activate</string>
+    <string name="confirm_acti_success_title">%1$s is active</string>
+    <string name="confirm_acti_success_sub_title_no_phone">Your number should be ready to use</string>
+    <string name="done_button">Done</string>
+    <string name="error_title">Scan failure</string>
+    <string name="body_make_sure_not_already_downloaded_no_name">Make sure that the selected SIM profile hasn’t been downloaded on this device or another device.\n\nFor more help, contact your operator.</string>
+    <string name="perm_error_q_sub2_eid">You may need the %1$s for this device</string>
+    <string name="use_different_network_button">Use a different network</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="failed_title">Enable failure</string>
+    <string name="body_issue_with_sim_profile_no_name">There\'s an issue with your SIM profile. To fix the issue, contact your operator.</string>
+    <string name="eid_number">EID number</string>
+
+    <string name="title_couldnt_activate_carrier">Couldn\'t activate %1$s</string>
+    <string name="title_couldnt_activate_carrier_no_name">Couldn\'t activate service</string>
+    <string name="body_something_went_wrong">Something went wrong while trying to activate your number.</string>
+    <string name="body_device_is_locked">Your device is locked by %1$s.</string>
+    <string name="body_device_is_locked_no_name">Your device is locked.</string>
+    <string name="detail_contact_carrier_to_unlock">Contact %1$s at %2$s to see if the device can be unlocked.</string>
+    <string name="detail_contact_carrier_to_unlock_no_name">Contact your operator to see if the device can be unlocked.</string>
+    <string name="detail_contact_carrier_to_unlock_no_tel">Contact %1$s to see if the device can be unlocked.</string>
+    <string name="body_not_enough_space_to_download">There isn\'t enough space to download this SIM profile.</string>
+    <string name="body_make_sure_not_already_downloaded">Make sure that the selected SIM profile hasn’t been downloaded on this device or another device.\n\nFor more help, contact %1$s at %2$s</string>
+    <string name="body_make_sure_not_already_downloaded_no_tel">Make sure that the selected SIM profile hasn’t been downloaded on this device or another device.\n\nFor more help, contact %1$s</string>
+    <string name="detail_delete_a_profile_before_retrying">Delete a profile in Settings, then try again.</string>
+    <string name="detail_provide_info_to_carrier">You can provide the following information to your operator:\n%1$s\n%2$s</string>
+    <string name="title_incorrect_qr_code">Incorrect QR code</string>
+    <string name="body_check_qr_code_or_go_back">Check that you are scanning the correct QR code. To try scanning again, go back to the previous screen.</string>
+    <string name="detail_contact_carrier_for_more_help">For more help, contact your operator.</string>
+    <string name="title_connect_to_wifi">Connect to wifi</string>
+    <string name="body_need_wifi_connection">You will need a Wi-Fi connection to download a SIM profile.</string>
+    <string name="detail_try_adding_again">Once you connect, try adding a mobile network again.</string>
+    <string name="title_profile_already_downloaded">Profile already downloaded</string>
+    <string name="body_issue_with_sim_profile">There’s an issue with your SIM profile. To fix the issue, contact %1$s at %2$s.</string>
+    <string name="body_issue_with_sim_profile_no_tel">There\'s an issue with your SIM profile. To fix the issue, contact %1$s.</string>
+    <string name="operation_code_text">Operation code</string>
+    <string name="error_code_text">Error code</string>
+    <string name="detail_may_need_eid_number">You may need the %1$s for this device.</string>
+    <string name="title_no_connection">No connection</string>
+    <string name="body_need_wifi_or_mobile_connection">You will need a Wi-Fi or mobile connection to download a SIM profile.</string>
+    <string name="subject_code_text">Subject code</string>
+    <string name="reason_code_text">Reason code</string>
+
+    <string name="xpopup_cancel">cancel</string>
+    <string name="xpopup_ok">ok</string>
+
+    <string name="confirmation_code_title">confirmation code</string>
+    <string name="policy_rule_text">Needs your consent to allow profile policy rules. This step is required by your carrier.</string>
+    <string name="confirmation_code_text">Enter the confirmation code that your carrier gave you. This step is required by your carrier.</string>
+</resources>

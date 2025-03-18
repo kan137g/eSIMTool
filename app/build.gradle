@@ -51,7 +51,7 @@ def roomVersion = '2.4.2'
 
 dependencies {
 //    implementation fileTree(dir: 'libs', include: ['*.aar'])
-    implementation 'com.github.kan137g:eSIM:1.0.7.2'
+    implementation 'com.github.kan137g:eSIM:1.0.7.3'
 
     implementation "io.grpc:grpc-okhttp:1.64.0"
     implementation "io.grpc:grpc-protobuf-lite:1.64.0"

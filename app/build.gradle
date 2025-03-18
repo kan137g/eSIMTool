@@ -1,10 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-//    id 'kotlin-android-extensions'
-    id 'kotlin-parcelize'
+    id 'kotlin-android-extensions'
     id 'kotlin-kapt'
-    id 'maven-publish'
 }
 
 android {
@@ -55,7 +53,6 @@ dependencies {
 //    implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation 'com.github.kan137g:eSIM:1.0.7.2'
 
-
     implementation "io.grpc:grpc-okhttp:1.64.0"
     implementation "io.grpc:grpc-protobuf-lite:1.64.0"
     implementation "io.grpc:grpc-stub:1.64.0"
@@ -100,7 +97,7 @@ dependencies {
     implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'
     implementation 'com.scwang.smart:refresh-header-material:2.0.3'
     //dialog
-    implementation 'com.github.li-xiaojun:XPopup:2.8.3'
+    implementation 'com.github.li-xiaojun:XPopup:2.8.9'
     //bugly
     implementation "com.tencent.bugly:crashreport:latest.release"
     //qrcode
@@ -115,70 +112,3 @@ dependencies {
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
     implementation 'io.reactivex:rxjava:1.1.1'
 }
-
-
-
-
-//publishing {
-//    // 配置maven 仓库
-//    repositories { RepositoryHandler handler->
-////        handler.mavenLocal()  // 发布到默认的 本地maven 仓库 ，路径： USER_HOME/.m2/repository/
-//
-//
-//        //带有aar和pom等打包文件的输出目录，project.projectDir.parent：表示输出到当前项目的根目录
-////        project.projectDir.parent
-//
-//        // 仓库用户名密码
-//         handler.maven { MavenArtifactRepository mavenArtifactRepository ->
-//             // maven 仓库地址
-//             url 'https://github.com/kan137g/eSIM/'
-//             // 访问仓库的 账号和密码
-//             credentials {
-//                 username = "kan137g"
-//                 password = "jidiKANG"
-//             }
-//         }
-//
-//
-//    }
-//    // 配置发布产物
-//    publications {PublicationContainer publication->
-//        // 名称可以随便定义，这里定义成 maven，是因为我的 aar 包是发布到 maven 仓库的，所以这里为了见名知义，定义成了 maven
-//
-//
-//        // 任务名称：maven
-//        maven(MavenPublication) {// 容器可配置的信息 MavenPublication
-//
-//            // 依赖 bundleReleaseAar 任务，并上传其产出的aar
-////            afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) }// 方式一：生成aar包
-//             artifact ".\\libs\\droidlib-1.0.7.1.aar" // 方式二：指定生成的aar路径
-//            //组Id，即远程依赖库的包名
-//            groupId = "com.akq.sdk"
-//            //远程依赖库的库名
-//            artifactId = "eSIM"
-//            //版本号
-//            version = "1.0.0"
-//
-//            // pom文件中声明依赖，从而传递到使用方
-//            pom.withXml {
-//                def dependenciesNode = asNode().appendNode('dependencies')
-//                configurations.implementation.allDependencies.each {
-//                    // 避免出现空节点或 artifactId=unspecified 的节点
-//                    if (it.group != null && (it.name != null && "unspecified" != it.name) && it.version != null) {
-//                        println "dependency=${it.toString()}"
-//                        def dependencyNode = dependenciesNode.appendNode('dependency')
-//                        dependencyNode.appendNode('groupId', it.group)
-//                        dependencyNode.appendNode('artifactId', it.name)
-//                        dependencyNode.appendNode('version', it.version)
-//                        dependencyNode.appendNode('scope', 'implementation')
-//                    }
-//                }
-//            }
-//
-//
-//        }
-//    }
-//
-//}
-//
-

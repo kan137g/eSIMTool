@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <ImageView
                 android:id="@+id/insert_iv"
@@ -316,14 +316,12 @@
 
         </LinearLayout>
 
-<!--    fixme:激活失败    -->
         <LinearLayout
             android:id="@+id/activate_failed_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:visibility="gone"
-             >
+            android:visibility="gone">
 
             <LinearLayout
                 android:layout_width="match_parent"
